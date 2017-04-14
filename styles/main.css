@@ -1,37 +1,36 @@
 body {
-  background-color: ghostwhite;
-  color: black;
   padding-bottom: 20px;
   padding-top: 10px;
-}
-
-.profile-picture {
-  height: 80%;
-  width: 80%;
+  background-color: ghostwhite;
+  color: black;
 }
 
 .profile {
   position: fixed;
 }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.profile-picture {
+  height: 80%;
+  width: 80%;
+  max-width: 250px;
+  border-radius: 5%;
 }
 
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
+.resume-heading {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.profile ul {
+  padding-left: 30px;
+}
+
+ul {
+  list-style: none;
 }
 
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
-}
-
-information-right {
-  align-text: right;
+  background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
