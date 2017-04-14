@@ -1,8 +1,19 @@
 body {
+  background-image: url("../paper.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
   padding-bottom: 20px;
   padding-top: 10px;
-  background-color: ghostwhite;
+  background-color: black;
   color: black;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .profile {
@@ -31,6 +42,14 @@ ul {
 
 hr {
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
+.odd {
+  text-align: right;
+}
+
+.even {
+  text-align: left;
 }
